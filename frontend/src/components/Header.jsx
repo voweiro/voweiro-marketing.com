@@ -1,9 +1,10 @@
 
-
-export default function Root() {
+function Header() {
   return (
     <div>
       
     </div>
   )
 }
+
+export default Header
