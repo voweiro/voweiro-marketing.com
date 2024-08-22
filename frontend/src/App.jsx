@@ -2,11 +2,16 @@ import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 function App() {
 
-  const routes = createBrowserRouter ()
+  const router = createBrowserRouter ([
+    {
+      path: '/',
+
+    }
+  ])
   
   return (
     <>
-    <rout
+    <RouterProvider router={router}/>
      
     </>
   )
